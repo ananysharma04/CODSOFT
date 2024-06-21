@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anany - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+    body{
+        background-color: #000021;
+        color: white;
+        font-family: "Poppins", sans-serif;
+    }
+    nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+    }
+    nav ul{
+        display: flex;
+        justify-content: center;
+    }
+    nav ul li{
+        list-style: none;
+        margin: 0 23px;
+    }
+
+    nav ul li a{
+        text-decoration: none;
+        color: white;
+    }
+
+    nav ul li a:hover{
+       color: rgb(156, 156, 231);
+       font-size: 1.04rem;
+    }
+    main hr{
+        border: 0;
+        background: #9c97f1;
+        height: 1.2px;
+        margin: 60px 84px;
+    }
+
+    .left{
+       font-size:1.5rem;  
+    }
+    .left img{
+        height: 80px;
+        width: 80px;
+    }
+    .firstSection{
+        display: flex;
+        justify-content: space-around;
+        margin: 130px 0;
+        align-items: center;
+    }
+
+    .firstSection>div{
+      width: 40%;
+    }
+    .leftSection{
+    
+     font-size: 3rem;
+    
+    }
+
+    .leftSection .buttons{
+    
+    padding: 63px;
+   
+   }
+
+    .leftSection .btn{
+    
+    padding: 12px;
+    background: #1e2167;
+    color: black;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+   text-decoration: none;
+   }
+   .leftSection .btn a{
+    
+    /* padding: 12px;
+    background: #1e2167;
+    color: black;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+   text-decoration: none; */
+   text-decoration: none;
+   color: white;
+   }
+    /* .leftSection div{
+        height: 80px;
+        width: 80px;
+    } */
+
+    /* .rightSection{
+    width: 80%;
+    margin: 50px 0;
+
+    } */
+
+    .rightSection img{
+    width: 80%;
+    margin: 50px 0;
+
+    }
+    .purple{
+        color: rgb(138, 114, 161);
+    }
+    .text-gray{
+        color: gray;
+    }
+    #element{
+        color: rgb(138, 114, 161);
+    }
+    .secondSection{
+        max-width: 80vw;
+        margin: auto;
+        height:80vh ;
+    }
+.secondSection h1{
+    font-size: 1.9rem;
+}
+.secondSection .box{
+ background: white;
+ width: 77vw;
+ height: 2px;
+ margin: 56px 0;
+ display: flex;
+}
+.secondSection .vertical{
+    height: 93px;
+     width: 1px;
+     background-color: white;
+     margin: 0 120px;
+}
+.image-top{
+    width: 23px;
+    position: relative; 
+    top: -32px;
+    left: -9px;
+
+}
+.vertical-title{
+    position: relative; 
+    top: 75px;
+    width: 150px;
+    font-size: 14px;
+}
+
+.vertical-desc{
+    position: relative;
+    top: 85px;
+    color: gray;
+    width: 150px;
+    font-size: 10px;
+}
+.footer{
+    background-color: #0e0e1a;
+
+    /* height: 233px; */
+}
+.footer{
+    display: flex;
+    padding: 23px 123px;
+    justify-content: space-evenly;
+}
+.footer ul{
+    list-style: none;
+}
+.footer>div{
+    width: 223px;
+}
+ footer .footer-rights{
+    text-align: center;
+    color: gray;
+    padding: 12px 0px;
+}
+
+.footer-second img{
+   height: 100px;
+   width: 100px;
+}
+
+.footer-third img{
+   height: 100px;
+   width: 100px;
+}
+.footer-fourth img{
+   height: 100px;
+   width: 100px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Anany's Portfolio
+                <img src="img2.jpg" alt="">
+            </div>
+            <div class="right">
+            
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                    
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+      <div class="leftSection">
+        <!-- <img src="img2.jpg" alt=""> -->
+         Hi, My name is <span class="purple" >Anany</span>
+         <div>and I am a passionate </div>
+       
+         <!-- <div>Web Developer</div> -->
+         <span id="element"></span>
+         <div class="buttons">
+            <button class="btn">View Resume</button>
+            <button class="btn"><a href="https://github.com/ananysharma04">Visit Github</a></button>
+         </div>
+      </div>
+      <div class="rightSection">
+    <img src="img3.jpg" alt="">
+      </div>
+        </section>
+       <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+               <div class="vertical">
+                <img class="image-top" src="html.png" alt="">
+                <div class="vertical-title">
+                    HTML Developer (2022-2023)
+                </div>
+                <div class="vertical-desc">
+                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. At accusamus ex quos, nostrum nisi odit assumenda, illo, dolores perferendis quam veritatis nesciunt eaque.
+                </div>
+               </div>
+
+               <div class="vertical">
+                <img class="image-top" src="CSS.png" alt="">
+                <div class="vertical-title">
+                    CSS Developer (2022-2023)
+                </div>
+                <div class="vertical-desc">
+                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. At accusamus ex quos, nostrum nisi odit assumenda, illo, dolores perferendis quam veritatis nesciunt eaque.
+                </div>
+               </div>
+               <div class="vertical">
+                <img class="image-top" src="latex.png" alt="">
+                <div class="vertical-title">
+                    Latex
+                    Developer (2022-2023)
+                </div>
+                <div class="vertical-desc">
+                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. At accusamus ex quos, nostrum nisi odit assumenda, illo, dolores perferendis quam veritatis nesciunt eaque.
+                </div>
+               </div>
+               <div class="vertical">
+                <img class="image-top" src="JS.jpeg" alt="">
+                <div class="vertical-title">
+                    JS Developer (2023-2024)
+                </div>
+                <div class="vertical-desc">
+                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. At accusamus ex quos, nostrum nisi odit assumenda, illo, dolores perferendis quam veritatis nesciunt eaque.
+                </div>
+               </div>
+               <div class="vertical">
+                <img class="image-top" src="WIX.png" alt="">
+                <div class="vertical-title">
+                    Website Inventory Coordinator on Wix (2023-2024)
+                </div>
+                <div class="vertical-desc">
+                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. At accusamus ex quos, nostrum nisi odit assumenda, illo, dolores perferendis quam veritatis nesciunt eaque.
+                </div>
+               </div>
+              
+              
+              
+               <div class="vertical"></div>
+               <div class="vertical"></div>
+            </div>
+
+
+        </section>
+
+        <section class="secondSection">
+            
+            <h1>Projects</h1>
+
+            <div class="box">
+               <div class="vertical">
+              
+                <div class="vertical-title">
+                    Basic Gym web page  (Oct 2023 - Oct 2023)
+                </div>
+                <div class="vertical-desc">
+                    It is basic webpage of gym which is create by using
+                    HTML,CSS.
+
+                    <br>
+
+                    <a href="https://github.com/ananysharma04/ProjectWeb.git">Project URL</a>
+
+
+                    
+                </div>
+               </div>
+
+               <div class="vertical">
+                
+                <div class="vertical-title">
+                    Food Ordering Webpage  (Dec 2023 - Dec 2023)
+                </div>
+                <div class="vertical-desc">
+                    It is a food ordering webpage which is created by using
+                    HTML,CSS.
+
+                    <br>
+
+                    <a href="https://github.com/ananysharma04/ProjectWeb.git">Project URL</a>
+
+                </div>
+               </div>
+               <div class="vertical">
+                
+                <div class="vertical-title">
+                    Power point presentation on Design thinking   (Jan 2024 - Mar 2024)
+                </div>
+                <div class="vertical-desc">
+                    This presentation was completed using the Design
+                    Thinking process, addressing the problem of maid service
+                    in our locality. The project was developed through phases
+                    including Empathy, Define, Prototype, and Testing.
+
+
+
+                    <br>
+
+                    <a href="https://docs.google.com/presentation/d/19O0kOiHbTA7f6cQ7c42a-S0Srl4LCFff/edit#slide=id.p1">Project URL</a>
+                </div>
+               </div>
+               <div class="vertical">
+               
+                <div class="vertical-title">
+                    Solar System  (Nov 2023 - May 2024)
+                </div>
+                <div class="vertical-desc">
+                    This project simulates the solar system with animated
+                    orbits for each planet using HTML, CSS, and JavaScript.
+                    The planets revolve around the sun with defined
+                    animation timings representing their orbits. Each planet is
+                    represented by an image and has a clickable button that opens an external link with more information about the planets.
+                    
+                    
+                    <br>
+
+                    <a href="https://github.com/ananysharma04/ProjectWeb.git">Project URL</a>
+
+
+                </div>
+               </div>
+               <div class="vertical">
+               
+                <div class="vertical-title">
+                    Clever Book Management  (Jun 2024 - Jun 2024)
+                </div>
+                <div class="vertical-desc">
+                    The project "CleverBooks Management" is a web-based
+                    platform designed to enhance inventory management
+                    through innovative features. It provides comprehensive
+                    solutions for reducing inventory holding costs, improving
+                    accuracy, optimizing stock levels, and streamlining order fulfilment.
+
+                    <br>
+
+                    <a href="https://github.com/ananysharma04/cleverbooks-management.git">Project URL</a>
+                </div>
+               </div>
+              
+              
+              
+               <div class="vertical"></div>
+               <div class="vertical"></div>
+            </div>
+
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+<h3>Anany's Developer Portfolio</h3>
+
+            </div>
+            <div class="footer-second">
+<ul>
+    <!-- <li>Home</li>
+    <li>About</li>
+    <li>Contact</li>
+    <li>Services</li> -->
+    <img src="facb.png" alt="">
+                
+                    <span><a href="https://www.facebook.com/profile.php?id=100090196699917&mibextid=LQQJ4d">facebook Profile</a></span>
+    
+</ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <!-- <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li> -->
+                    <img src="inst.jpeg" alt="">
+                
+                    <span><a  href=" https://www.instagram.com/invites/contact/?igsh=6rbke1sr4n3e&utm_content=ppmva17">instagram Profile</a></span>
+                    
+                </ul>
+
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <!-- <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li> -->
+                    <img src="in.png" alt="">
+                    <span><a href="https://www.linkedin.com/in/anany-sharma-a34b52253/?trk=public-profile-join-page">linkedin Profile</a></span>
+                    
+                </ul>
+
+            </div>
+        </div>
+        <div class="footer-rights">Copyright &#169;www.ananysportfolio.com | All rights reserved
+
+        </div>
+    </footer>
+    
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Wix Data Manager','Web Designer',],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
